@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o  -o Test_vector 

@@ -29,7 +29,7 @@ namespace MySTL
     template<class ForwardIterator>
     inline void _destroy(ForwardIterator first, ForwardIterator last, _false_type)
     {
-        for (; first != last; ++first)
+        for (; first != last; first++)
         {
             destroy(&*first);
         }

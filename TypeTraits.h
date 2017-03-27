@@ -6,23 +6,6 @@
 #define MYSTL_TYPETRAITS_H
 namespace MySTL
 {
-
-    namespace
-    {
-        template<bool, class Ta, class Tb>
-        struct IfThenElse;
-        template<class Ta, class Tb>
-        struct IfThenElse < true, Ta, Tb >
-        {
-            using result = Ta;
-        };
-        template<class Ta, class Tb>
-        struct IfThenElse < false, Ta, Tb >
-        {
-            using result = Tb;
-        };
-    }
-
     struct _true_type { };
     struct _false_type { };
 

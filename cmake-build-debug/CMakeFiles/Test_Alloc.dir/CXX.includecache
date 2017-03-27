@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jyc/mygithub/MySTL/Alloc.h
+stdio.h
+-
+stdlib.h
+-
+stdlib.h
+-
+
+/home/jyc/mygithub/MySTL/Allocator.h
+Alloc.h
+/home/jyc/mygithub/MySTL/Alloc.h
+new
+-
+assert.h
+-
+stddef.h
+-
+
+/home/jyc/mygithub/MySTL/cpp/Alloc.cpp
+../Alloc.h
+/home/jyc/mygithub/MySTL/Alloc.h
+assert.h
+-
+
+/home/jyc/mygithub/MySTL/test/test_Allocator.cpp
+vector
+-
+../Allocator.h
+/home/jyc/mygithub/MySTL/Allocator.h
+

@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
 project(MySTL)
 set(CMAKE_CXX_STANDARD 11)
-add_executable(Test_vector Alloc.h ./cpp/Alloc.cpp Constructor.h TypeTraits.h iterator.h Allocator.h Vector.h)
+add_executable(Test_Alloc test/test_Allocator.cpp Alloc.h ./cpp/Alloc.cpp Constructor.h TypeTraits.h iterator.h Allocator.h)
+add_executable(Test_simple_allocator test/test_simple_allocator.cpp  Constructor.h TypeTraits.h iterator.h Simple_Allocator.h)

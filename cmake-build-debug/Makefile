@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/jyc/mygithub/MySTL/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/jyc/software/clion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/jyc/software/clion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Test_vector
+# Target rules for targets named Test_simple_allocator
 
 # Build rule for target.
-Test_vector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Test_vector
-.PHONY : Test_vector
+Test_simple_allocator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test_simple_allocator
+.PHONY : Test_simple_allocator
 
 # fast build rule for target.
-Test_vector/fast:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/build
-.PHONY : Test_vector/fast
+Test_simple_allocator/fast:
+	$(MAKE) -f CMakeFiles/Test_simple_allocator.dir/build.make CMakeFiles/Test_simple_allocator.dir/build
+.PHONY : Test_simple_allocator/fast
+
+#=============================================================================
+# Target rules for targets named Test_Alloc
+
+# Build rule for target.
+Test_Alloc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test_Alloc
+.PHONY : Test_Alloc
+
+# fast build rule for target.
+Test_Alloc/fast:
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/build
+.PHONY : Test_Alloc/fast
 
 cpp/Alloc.o: cpp/Alloc.cpp.o
 
@@ -129,7 +142,7 @@ cpp/Alloc.o: cpp/Alloc.cpp.o
 
 # target to build an object file
 cpp/Alloc.cpp.o:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.o
 .PHONY : cpp/Alloc.cpp.o
 
 cpp/Alloc.i: cpp/Alloc.cpp.i
@@ -138,7 +151,7 @@ cpp/Alloc.i: cpp/Alloc.cpp.i
 
 # target to preprocess a source file
 cpp/Alloc.cpp.i:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.i
 .PHONY : cpp/Alloc.cpp.i
 
 cpp/Alloc.s: cpp/Alloc.cpp.s
@@ -147,8 +160,62 @@ cpp/Alloc.s: cpp/Alloc.cpp.s
 
 # target to generate assembly for a file
 cpp/Alloc.cpp.s:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.s
 .PHONY : cpp/Alloc.cpp.s
+
+test/test_Allocator.o: test/test_Allocator.cpp.o
+
+.PHONY : test/test_Allocator.o
+
+# target to build an object file
+test/test_Allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/test/test_Allocator.cpp.o
+.PHONY : test/test_Allocator.cpp.o
+
+test/test_Allocator.i: test/test_Allocator.cpp.i
+
+.PHONY : test/test_Allocator.i
+
+# target to preprocess a source file
+test/test_Allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/test/test_Allocator.cpp.i
+.PHONY : test/test_Allocator.cpp.i
+
+test/test_Allocator.s: test/test_Allocator.cpp.s
+
+.PHONY : test/test_Allocator.s
+
+# target to generate assembly for a file
+test/test_Allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/test/test_Allocator.cpp.s
+.PHONY : test/test_Allocator.cpp.s
+
+test/test_simple_allocator.o: test/test_simple_allocator.cpp.o
+
+.PHONY : test/test_simple_allocator.o
+
+# target to build an object file
+test/test_simple_allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/Test_simple_allocator.dir/build.make CMakeFiles/Test_simple_allocator.dir/test/test_simple_allocator.cpp.o
+.PHONY : test/test_simple_allocator.cpp.o
+
+test/test_simple_allocator.i: test/test_simple_allocator.cpp.i
+
+.PHONY : test/test_simple_allocator.i
+
+# target to preprocess a source file
+test/test_simple_allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/Test_simple_allocator.dir/build.make CMakeFiles/Test_simple_allocator.dir/test/test_simple_allocator.cpp.i
+.PHONY : test/test_simple_allocator.cpp.i
+
+test/test_simple_allocator.s: test/test_simple_allocator.cpp.s
+
+.PHONY : test/test_simple_allocator.s
+
+# target to generate assembly for a file
+test/test_simple_allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/Test_simple_allocator.dir/build.make CMakeFiles/Test_simple_allocator.dir/test/test_simple_allocator.cpp.s
+.PHONY : test/test_simple_allocator.cpp.s
 
 # Help Target
 help:
@@ -156,12 +223,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Test_vector"
+	@echo "... rebuild_cache"
+	@echo "... Test_simple_allocator"
+	@echo "... Test_Alloc"
 	@echo "... cpp/Alloc.o"
 	@echo "... cpp/Alloc.i"
 	@echo "... cpp/Alloc.s"
+	@echo "... test/test_Allocator.o"
+	@echo "... test/test_Allocator.i"
+	@echo "... test/test_Allocator.s"
+	@echo "... test/test_simple_allocator.o"
+	@echo "... test/test_simple_allocator.i"
+	@echo "... test/test_simple_allocator.s"
 .PHONY : help
 
 

@@ -1,21 +1,22 @@
 //
-// Created by jyc on 17-3-26.
+// Created by jyc on 17-3-27.
 //
 
-#ifndef MYSTL_ALLOCATOR_H
-#define MYSTL_ALLOCATOR_H
-#include "Alloc.h"
+#ifndef MYSTL_SIMPLE_ALLOCATOR_H
+#define MYSTL_SIMPLE_ALLOCATOR_H
 #include <new>
 #include <assert.h>
 #include <stddef.h>
+#include <stdlib.h>
 namespace MySTL
 {
     /*
 	**空间配置器，以变量数目为单位分配
 	*/
     template<class T>
-    class Allocator
+    class Simple_Allocator
     {
+        //STL统一标准接口
     public:
         typedef T			value_type;
         typedef T*			pointer;
@@ -38,51 +39,51 @@ namespace MySTL
     };
 
     template<class T>
-    T *Allocator<T>::allocate()
+    T *Simple_Allocator<T>::allocate()
     {
-        return static_cast<T *>(Alloc::allocate(sizeof(T)));
+        return (T*)malloc(sizeof(T));
     }
 
     template<class T>
-    T *Allocator<T>::allocate(size_t n)
+    T *Simple_Allocator<T>::allocate(size_t n)
     {
         if (n == 0) return 0;
-        return static_cast<T *>(Alloc::allocate(sizeof(T) * n));
+        return (T*)(malloc(sizeof(T) * n));
     }
 
     template<class T>
-    void Allocator<T>::deallocate(T *ptr)
+    void Simple_Allocator<T>::deallocate(T *ptr)
     {
-        Alloc::deallocate(static_cast<void *>(ptr), sizeof(T));
+       free(ptr);
     }
 
     template<class T>
-    void Allocator<T>::deallocate(T *ptr, size_t n)
+    void Simple_Allocator<T>::deallocate(T *ptr, size_t n)
     {
         if (n == 0) return;
-        Alloc::deallocate(static_cast<void *>(ptr), sizeof(T)* n);
+        free(ptr);
     }
 
     template<class T>
-    void Allocator<T>::construct(T *ptr)
+    void Simple_Allocator<T>::construct(T *ptr)
     {
         new(ptr)T();
     }
 
     template<class T>
-    void Allocator<T>::construct(T *ptr, const T& value)
+    void Simple_Allocator<T>::construct(T *ptr, const T& value)
     {
         new(ptr)T(value);
     }
 
     template<class T>
-    void Allocator<T>::destroy(T *ptr)
+    void Simple_Allocator<T>::destroy(T *ptr)
     {
         ptr->~T();
     }
 
     template<class T>
-    void Allocator<T>::destroy(T *first, T *last)
+    void Simple_Allocator<T>::destroy(T *first, T *last)
     {
         for (; first != last; ++first)
         {
@@ -91,5 +92,4 @@ namespace MySTL
     }
 
 }
-#endif //MYSTL_ALLOCATOR_H
-
+#endif //MYSTL_SIMPLE_ALLOCATOR_H

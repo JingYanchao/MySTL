@@ -28,7 +28,7 @@ namespace MySTL
                 union obj *next;
                 char client[1];
             };
-            static static obj* free_list[NUMFREELIST];
+            static obj* free_list[NUMFREELIST];
             //将字节对齐到8比特
             static size_t align(size_t bytes)
             {

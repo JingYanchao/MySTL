@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Test_simple_allocator.dir/test/test_simple_allocator.cpp.o  -o Test_simple_allocator 

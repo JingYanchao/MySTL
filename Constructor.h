@@ -38,6 +38,7 @@ namespace MySTL
     template<class ForwardIterator>
     inline void destroy(ForwardIterator first, ForwardIterator last)
     {
+        //萃取迭代器指向类型是否为POD类型
         typedef typename _type_traits<ForwardIterator>::is_POD_type is_POD_type;
         _destroy(first, last, is_POD_type());
     }

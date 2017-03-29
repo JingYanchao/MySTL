@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="MySTL" targetName="Test_simple_allocator" />
-      <config projectName="MySTL" targetName="Test_vector" />
-      <config projectName="Alloc" targetName="Alloc" />
       <config projectName="MySTL" targetName="Test_Alloc" />
+      <config projectName="Alloc" targetName="Alloc" />
+      <config projectName="MySTL" targetName="Test_vector" />
+      <config projectName="MySTL" targetName="Test_simple_allocator" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,9 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b2ad6d-35af-4013-a222-e898f84ed25f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Allocator.h" afterPath="$PROJECT_DIR$/Allocator.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_simple_allocator.dir/test/test_simple_allocator.cpp.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Constructor.h" afterPath="$PROJECT_DIR$/Constructor.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TypeTraits.h" afterPath="$PROJECT_DIR$/TypeTraits.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/空间分配器.md" afterPath="$PROJECT_DIR$/doc/空间分配器.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,23 +34,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Alloc.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cpp/Alloc.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="112" column="38" lean-forward="false" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
-              <folding>
-                <element signature="e#36#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Alloc.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alloc.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="134">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="e#37#55#0" expanded="true" />
               </folding>
@@ -57,13 +46,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_Allocator.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_Allocator.cpp">
+      <file leaf-file-name="Alloc.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cpp/Alloc.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="-180">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="4" />
               <folding>
-                <element signature="e#36#53#0" expanded="true" />
+                <element signature="e#36#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +61,8 @@
       <file leaf-file-name="Allocator.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Allocator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="674">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="e#89#107#0" expanded="true" />
                 <element signature="e#249#258#0" expanded="true" />
@@ -86,22 +75,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeTraits.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TypeTraits.h">
+      <file leaf-file-name="Uninitialized.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Uninitialized.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="211" column="56" lean-forward="false" selection-start-line="211" selection-start-column="56" selection-end-line="211" selection-end-column="56" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="空间分配器.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/空间分配器.md">
+      <file leaf-file-name="TypeTraits.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeTraits.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1273">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#206#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iterator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#446#471#0" expanded="true" />
+                <element signature="e#1008#1033#0" expanded="true" />
+                <element signature="e#1289#1314#0" expanded="true" />
+                <element signature="e#1586#1611#0" expanded="true" />
+                <element signature="e#1882#1989#0" expanded="true" />
+                <element signature="e#2225#2241#0" expanded="true" />
+                <element signature="e#2610#2619#0" expanded="true" />
+                <element signature="e#2910#2919#0" expanded="true" />
+                <element signature="e#3230#3246#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +120,8 @@
       <file leaf-file-name="Simple_Allocator.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simple_Allocator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding>
                 <element signature="e#103#117#0" expanded="true" />
                 <element signature="e#239#248#0" expanded="true" />
@@ -131,9 +142,21 @@
         <entry file="file://$PROJECT_DIR$/test/test_simple_allocator.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="51" />
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="e#36#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stl_vector.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/4.8/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="208" column="2" lean-forward="true" selection-start-line="208" selection-start-column="2" selection-end-line="208" selection-end-column="2" />
+              <folding>
+                <element signature="e#6554#6608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,8 +165,8 @@
       <file leaf-file-name="Constructor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Constructor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="74">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
                 <element signature="e#94#117#0" expanded="true" />
                 <element signature="e#165#185#0" expanded="true" />
@@ -152,16 +175,6 @@
                 <element signature="e#500#523#0" expanded="true" />
                 <element signature="e#721#744#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="104" lean-forward="false" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="104" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -181,10 +194,11 @@
         <option value="$PROJECT_DIR$/test/test_Allocator.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Simple_Allocator.h" />
-        <option value="$PROJECT_DIR$/test/test_simple_allocator.cpp" />
-        <option value="$PROJECT_DIR$/Constructor.h" />
         <option value="$PROJECT_DIR$/Allocator.h" />
         <option value="$PROJECT_DIR$/TypeTraits.h" />
+        <option value="$PROJECT_DIR$/test/test_simple_allocator.cpp" />
+        <option value="$PROJECT_DIR$/Constructor.h" />
+        <option value="$PROJECT_DIR$/Uninitialized.h" />
       </list>
     </option>
   </component>
@@ -195,8 +209,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="708" />
-    <option name="y" value="162" />
+    <option name="x" value="252" />
+    <option name="y" value="163" />
     <option name="width" value="1310" />
     <option name="height" value="798" />
   </component>
@@ -280,6 +294,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/picture" />
       <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cpp" />
@@ -493,35 +508,36 @@
       <updated>1490516109905</updated>
       <workItem from="1490516111297" duration="9152000" />
       <workItem from="1490586167332" duration="8999000" />
-      <workItem from="1490599626731" duration="3561000" />
+      <workItem from="1490599626731" duration="4703000" />
+      <workItem from="1490773267840" duration="6238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21712000" />
+    <option name="totallyTimeSpent" value="29092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="708" y="162" width="1310" height="798" extended-state="0" />
+    <frame x="252" y="163" width="1310" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,17 +548,126 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Allocator.h</url>
-          <line>33</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Alloc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_Allocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#36#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="e#89#107#0" expanded="true" />
+            <element signature="e#249#258#0" expanded="true" />
+            <element signature="e#743#752#0" expanded="true" />
+            <element signature="e#871#880#0" expanded="true" />
+            <element signature="e#1041#1050#0" expanded="true" />
+            <element signature="e#1182#1191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeTraits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#206#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#446#471#0" expanded="true" />
+            <element signature="e#1008#1033#0" expanded="true" />
+            <element signature="e#1289#1314#0" expanded="true" />
+            <element signature="e#1586#1611#0" expanded="true" />
+            <element signature="e#1882#1989#0" expanded="true" />
+            <element signature="e#2225#2241#0" expanded="true" />
+            <element signature="e#2610#2619#0" expanded="true" />
+            <element signature="e#2910#2919#0" expanded="true" />
+            <element signature="e#3230#3246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple_Allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="e#103#117#0" expanded="true" />
+            <element signature="e#239#248#0" expanded="true" />
+            <element signature="e#939#948#0" expanded="true" />
+            <element signature="e#1051#1060#0" expanded="true" />
+            <element signature="e#1207#1216#0" expanded="true" />
+            <element signature="e#1309#1318#0" expanded="true" />
+            <element signature="e#1450#1459#0" expanded="true" />
+            <element signature="e#1554#1563#0" expanded="true" />
+            <element signature="e#1679#1688#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_simple_allocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#94#117#0" expanded="true" />
+            <element signature="e#165#185#0" expanded="true" />
+            <element signature="e#293#302#0" expanded="true" />
+            <element signature="e#379#402#0" expanded="true" />
+            <element signature="e#500#523#0" expanded="true" />
+            <element signature="e#721#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="104" lean-forward="false" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cpp/Alloc.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -621,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2190">
           <caret line="146" column="25" lean-forward="false" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,10 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#84#106#0" expanded="true" />
-            <element signature="e#184#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#84#106#0" expanded="true" />
-            <element signature="e#184#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +858,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#206#215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,24 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#446#471#0" expanded="true" />
-            <element signature="e#1008#1033#0" expanded="true" />
-            <element signature="e#1289#1314#0" expanded="true" />
-            <element signature="e#1586#1611#0" expanded="true" />
-            <element signature="e#1882#1989#0" expanded="true" />
-            <element signature="e#2225#2241#0" expanded="true" />
-            <element signature="e#2610#2619#0" expanded="true" />
-            <element signature="e#2910#2919#0" expanded="true" />
-            <element signature="e#3230#3246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -790,10 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#84#106#0" expanded="true" />
-            <element signature="e#184#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,64 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2190">
           <caret line="146" column="25" lean-forward="false" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alloc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#37#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpp/Alloc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="112" column="38" lean-forward="false" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
-          <folding>
-            <element signature="e#36#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_simple_allocator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#36#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple_Allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="e#103#117#0" expanded="true" />
-            <element signature="e#239#248#0" expanded="true" />
-            <element signature="e#939#948#0" expanded="true" />
-            <element signature="e#1051#1060#0" expanded="true" />
-            <element signature="e#1207#1216#0" expanded="true" />
-            <element signature="e#1309#1318#0" expanded="true" />
-            <element signature="e#1450#1459#0" expanded="true" />
-            <element signature="e#1554#1563#0" expanded="true" />
-            <element signature="e#1679#1688#0" expanded="true" />
-            <element signature="e#1779#1788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/空间分配器.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,10 +918,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/空间分配器.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-515">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeTraits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#206#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_simple_allocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#36#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.8/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="208" column="2" lean-forward="true" selection-start-line="208" selection-start-column="2" selection-end-line="208" selection-end-column="2" />
+          <folding>
+            <element signature="e#6554#6608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Constructor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="74">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="e#94#117#0" expanded="true" />
             <element signature="e#165#185#0" expanded="true" />
@@ -895,10 +970,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cpp/Alloc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#36#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#446#471#0" expanded="true" />
+            <element signature="e#1008#1033#0" expanded="true" />
+            <element signature="e#1289#1314#0" expanded="true" />
+            <element signature="e#1586#1611#0" expanded="true" />
+            <element signature="e#1882#1989#0" expanded="true" />
+            <element signature="e#2225#2241#0" expanded="true" />
+            <element signature="e#2610#2619#0" expanded="true" />
+            <element signature="e#2910#2919#0" expanded="true" />
+            <element signature="e#3230#3246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple_Allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="e#103#117#0" expanded="true" />
+            <element signature="e#239#248#0" expanded="true" />
+            <element signature="e#939#948#0" expanded="true" />
+            <element signature="e#1051#1060#0" expanded="true" />
+            <element signature="e#1207#1216#0" expanded="true" />
+            <element signature="e#1309#1318#0" expanded="true" />
+            <element signature="e#1450#1459#0" expanded="true" />
+            <element signature="e#1554#1563#0" expanded="true" />
+            <element signature="e#1679#1688#0" expanded="true" />
+            <element signature="e#1779#1788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alloc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Allocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="674">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="e#89#107#0" expanded="true" />
             <element signature="e#249#258#0" expanded="true" />
@@ -910,10 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypeTraits.h">
+    <entry file="file://$PROJECT_DIR$/Uninitialized.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="211" column="56" lean-forward="false" selection-start-line="211" selection-start-column="56" selection-end-line="211" selection-end-column="56" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>

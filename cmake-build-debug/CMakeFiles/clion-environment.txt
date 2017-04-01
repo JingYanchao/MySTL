@@ -1,1 +1,2 @@
-CMake: 3.6.3@/home/jyc/software/clion/bin/cmake/bin/cmake
+Options: 
+CMake: 3.7.1@/home/jyc/software/clion/bin/cmake/bin/cmake

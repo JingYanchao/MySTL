@@ -24,7 +24,8 @@ namespace MySTL
     }
 
     template<class ForwardIterator>
-    inline void _destroy(ForwardIterator first, ForwardIterator last, _true_type){}
+    inline void _destroy(ForwardIterator first, ForwardIterator last, _true_type)
+    {}
 
     template<class ForwardIterator>
     inline void _destroy(ForwardIterator first, ForwardIterator last, _false_type)

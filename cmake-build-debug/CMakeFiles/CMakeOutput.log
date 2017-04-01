@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cce10/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cce10.dir/build.make CMakeFiles/cmTC_cce10.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b44f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b44f5.dir/build.make CMakeFiles/cmTC_b44f5.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cce10.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_cce10.dir/testCCompiler.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_cce10
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce10.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_cce10.dir/testCCompiler.c.o  -o cmTC_cce10 
+Building C object CMakeFiles/cmTC_b44f5.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b44f5.dir/testCCompiler.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b44f5
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b44f5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b44f5.dir/testCCompiler.c.o  -o cmTC_b44f5 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef3b2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef3b2.dir/build.make CMakeFiles/cmTC_ef3b2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f2b92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2b92.dir/build.make CMakeFiles/cmTC_f2b92.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o   -c /home/jyc/software/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ef3b2
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef3b2.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o  -o cmTC_ef3b2  
+Building C object CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o   -c /home/jyc/software/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f2b92
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2b92.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o  -o cmTC_f2b92  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef3b2' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ef3b2 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2b92' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f2b92 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ef3b2/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ef3b2.dir/build.make CMakeFiles/cmTC_ef3b2.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f2b92/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f2b92.dir/build.make CMakeFiles/cmTC_f2b92.dir/build]
   ignore line: [make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o   -c /home/jyc/software/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ef3b2]
-  ignore line: [/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef3b2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o  -o cmTC_ef3b2  ]
+  ignore line: [Building C object CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o   -c /home/jyc/software/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f2b92]
+  ignore line: [/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2b92.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o  -o cmTC_f2b92  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef3b2' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ef3b2 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2b92' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f2b92 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -99,7 +99,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ef3b2] ==> ignore
+    arg [cmTC_f2b92] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_ef3b2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f2b92.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -145,14 +145,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34309/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34309.dir/build.make CMakeFiles/cmTC_34309.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d213e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d213e.dir/build.make CMakeFiles/cmTC_d213e.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_34309.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_34309.dir/feature_tests.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_34309
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34309.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_34309.dir/feature_tests.c.o  -o cmTC_34309 
+Building C object CMakeFiles/cmTC_d213e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_d213e.dir/feature_tests.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d213e
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d213e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d213e.dir/feature_tests.c.o  -o cmTC_d213e 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -165,14 +165,14 @@ make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFile
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_78286/fast"
-/usr/bin/make -f CMakeFiles/cmTC_78286.dir/build.make CMakeFiles/cmTC_78286.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_39c29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39c29.dir/build.make CMakeFiles/cmTC_39c29.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_78286.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_78286.dir/feature_tests.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_78286
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78286.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_78286.dir/feature_tests.c.o  -o cmTC_78286 
+Building C object CMakeFiles/cmTC_39c29.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_39c29.dir/feature_tests.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_39c29
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39c29.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_39c29.dir/feature_tests.c.o  -o cmTC_39c29 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -185,14 +185,14 @@ make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFile
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46357/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46357.dir/build.make CMakeFiles/cmTC_46357.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b575a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b575a.dir/build.make CMakeFiles/cmTC_b575a.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46357.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_46357.dir/feature_tests.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_46357
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46357.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_46357.dir/feature_tests.c.o  -o cmTC_46357 
+Building C object CMakeFiles/cmTC_b575a.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_b575a.dir/feature_tests.c.o   -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b575a
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b575a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b575a.dir/feature_tests.c.o  -o cmTC_b575a 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -203,28 +203,28 @@ make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFile
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3197a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3197a.dir/build.make CMakeFiles/cmTC_3197a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_572b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_572b1.dir/build.make CMakeFiles/cmTC_572b1.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3197a.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_3197a.dir/testCXXCompiler.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_3197a
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3197a.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3197a.dir/testCXXCompiler.cxx.o  -o cmTC_3197a 
+Building CXX object CMakeFiles/cmTC_572b1.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_572b1.dir/testCXXCompiler.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_572b1
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_572b1.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_572b1.dir/testCXXCompiler.cxx.o  -o cmTC_572b1 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1808a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1808a.dir/build.make CMakeFiles/cmTC_1808a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dea97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dea97.dir/build.make CMakeFiles/cmTC_dea97.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o -c /home/jyc/software/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_1808a
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1808a.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1808a  
+Building CXX object CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o -c /home/jyc/software/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_dea97
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dea97.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dea97  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -234,8 +234,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1808a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1808a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dea97' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_dea97 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -243,14 +243,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1808a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1808a.dir/build.make CMakeFiles/cmTC_1808a.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dea97/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dea97.dir/build.make CMakeFiles/cmTC_dea97.dir/build]
   ignore line: [make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o -c /home/jyc/software/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_1808a]
-  ignore line: [/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1808a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1808a  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o -c /home/jyc/software/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_dea97]
+  ignore line: [/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dea97.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dea97  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -260,8 +260,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1808a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1808a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dea97' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_dea97 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -274,7 +274,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1808a] ==> ignore
+    arg [cmTC_dea97] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -286,7 +286,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_1808a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_dea97.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -318,14 +318,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d41d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d41d.dir/build.make CMakeFiles/cmTC_2d41d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_55161/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55161.dir/build.make CMakeFiles/cmTC_55161.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2d41d.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_2d41d.dir/feature_tests.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2d41d
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d41d.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_2d41d.dir/feature_tests.cxx.o  -o cmTC_2d41d 
+Building CXX object CMakeFiles/cmTC_55161.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_55161.dir/feature_tests.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_55161
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55161.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_55161.dir/feature_tests.cxx.o  -o cmTC_55161 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -391,14 +391,14 @@ make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFile
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02b55/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02b55.dir/build.make CMakeFiles/cmTC_02b55.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a156b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a156b.dir/build.make CMakeFiles/cmTC_a156b.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_02b55.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_02b55.dir/feature_tests.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_02b55
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02b55.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_02b55.dir/feature_tests.cxx.o  -o cmTC_02b55 
+Building CXX object CMakeFiles/cmTC_a156b.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_a156b.dir/feature_tests.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a156b
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a156b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a156b.dir/feature_tests.cxx.o  -o cmTC_a156b 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -464,14 +464,14 @@ make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFile
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3f82/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3f82.dir/build.make CMakeFiles/cmTC_b3f82.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4d3dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d3dd.dir/build.make CMakeFiles/cmTC_4d3dd.dir/build
 make[1]: 正在进入目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b3f82.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_b3f82.dir/feature_tests.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b3f82
-/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3f82.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b3f82.dir/feature_tests.cxx.o  -o cmTC_b3f82 
+Building CXX object CMakeFiles/cmTC_4d3dd.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_4d3dd.dir/feature_tests.cxx.o -c /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4d3dd
+/home/jyc/software/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d3dd.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4d3dd.dir/feature_tests.cxx.o  -o cmTC_4d3dd 
 make[1]:正在离开目录 `/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jyc/mygithub/MySTL/cpp/Alloc.cpp" "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o"
+  "/home/jyc/mygithub/MySTL/cpp/Vector.cpp" "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o"
+  "/home/jyc/mygithub/MySTL/test/test_vector.cpp" "/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_vector.dir/test/test_vector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

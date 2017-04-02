@@ -40,7 +40,7 @@ namespace MySTL
     template <class InputIterator,class ForwardIterator>
     ForwardIterator uninitialized_copy(InputIterator first,InputIterator last,ForwardIterator result)
     {
-        typedef typename _type_traits<iterator_traits<InputIterator>::value_type>::is_POD_type isPODType;
+        typedef typename _type_traits<typename iterator_traits<InputIterator>::value_type>::is_POD_type isPODType;
         return _uninitialized_copy_aux(first,last,result,isPODType());
 
     }

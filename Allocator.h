@@ -57,7 +57,7 @@ namespace MySTL
     void Allocator<T>::deallocate(T *ptr, size_t n)
     {
         if (n == 0) return;
-        Alloc::deallocate(static_cast<void *>(ptr), sizeof(T)* n);
+        Alloc::deallocate(static_cast<void *>(ptr),sizeof(T)* n);
     }
 
 

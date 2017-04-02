@@ -208,10 +208,8 @@
 			<Option target="Test_vector"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/cpp/Alloc.cpp">
-			<Option target="Test_Alloc"/>
-		</Unit>
-		<Unit filename="/home/jyc/mygithub/MySTL/cpp/Vector.cpp">
 			<Option target="Test_vector"/>
+			<Option target="Test_Alloc"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/iterator.h">
 			<Option target="Test_vector"/>

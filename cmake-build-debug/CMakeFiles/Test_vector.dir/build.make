@@ -81,40 +81,40 @@ CMakeFiles/Test_vector.dir/test/test_vector.cpp.o.provides: CMakeFiles/Test_vect
 CMakeFiles/Test_vector.dir/test/test_vector.cpp.o.provides.build: CMakeFiles/Test_vector.dir/test/test_vector.cpp.o
 
 
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o: CMakeFiles/Test_vector.dir/flags.make
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o: ../cpp/Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o -c /home/jyc/mygithub/MySTL/cpp/Vector.cpp
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o: CMakeFiles/Test_vector.dir/flags.make
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o: ../cpp/Alloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o -c /home/jyc/mygithub/MySTL/cpp/Alloc.cpp
 
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test_vector.dir/cpp/Vector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jyc/mygithub/MySTL/cpp/Vector.cpp > CMakeFiles/Test_vector.dir/cpp/Vector.cpp.i
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jyc/mygithub/MySTL/cpp/Alloc.cpp > CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i
 
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test_vector.dir/cpp/Vector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jyc/mygithub/MySTL/cpp/Vector.cpp -o CMakeFiles/Test_vector.dir/cpp/Vector.cpp.s
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jyc/mygithub/MySTL/cpp/Alloc.cpp -o CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s
 
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.requires:
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.requires:
 
-.PHONY : CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.requires
+.PHONY : CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.requires
 
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.provides: CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.provides.build
-.PHONY : CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.provides
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.provides: CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.provides.build
+.PHONY : CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.provides
 
-CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.provides.build: CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o
+CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.provides.build: CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
 
 
 # Object files for target Test_vector
 Test_vector_OBJECTS = \
 "CMakeFiles/Test_vector.dir/test/test_vector.cpp.o" \
-"CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o"
+"CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o"
 
 # External object files for target Test_vector
 Test_vector_EXTERNAL_OBJECTS =
 
 Test_vector: CMakeFiles/Test_vector.dir/test/test_vector.cpp.o
-Test_vector: CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o
+Test_vector: CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
 Test_vector: CMakeFiles/Test_vector.dir/build.make
 Test_vector: CMakeFiles/Test_vector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Test_vector"
@@ -126,7 +126,7 @@ CMakeFiles/Test_vector.dir/build: Test_vector
 .PHONY : CMakeFiles/Test_vector.dir/build
 
 CMakeFiles/Test_vector.dir/requires: CMakeFiles/Test_vector.dir/test/test_vector.cpp.o.requires
-CMakeFiles/Test_vector.dir/requires: CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o.requires
+CMakeFiles/Test_vector.dir/requires: CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o.requires
 
 .PHONY : CMakeFiles/Test_vector.dir/requires
 

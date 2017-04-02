@@ -4,9 +4,6 @@
 
 #ifndef MYSTL_ITERATOR_H
 #define MYSTL_ITERATOR_H
-
-#endif //MYSTL_ITERATOR_H
-
 #include <stdlib.h>
 
 namespace MySTL
@@ -120,7 +117,7 @@ namespace MySTL
     inline typename iterator_traits<Iterator>::difference_type*
     distance_type(const Iterator&)
     {
-       return static_cast<typename iterator_traits<Iterator>::difference_type*>(0);
+        return static_cast<typename iterator_traits<Iterator>::difference_type*>(0);
     }
 
     template<class Iterator>
@@ -130,7 +127,7 @@ namespace MySTL
         return static_cast<typename iterator_traits<Iterator>::value_type*>(0);
     }
 
-
-
-
 }
+
+#endif //MYSTL_ITERATOR_H
+

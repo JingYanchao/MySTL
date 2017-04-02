@@ -4,8 +4,6 @@
 
 #ifndef MYSTL_ALGORITHM_H
 #define MYSTL_ALGORITHM_H
-
-#endif //MYSTL_ALGORITHM_H
 namespace MySTL
 {
     //*******fill algorithm**********
@@ -21,8 +19,8 @@ namespace MySTL
 
     //*********fill_n**************
     //*********[Complexity:O(N)]********
-    template <class ForwardIterator,class Size,class T>
-    ForwardIterator fill_n(OutputIterator first,Size n,const T& val)
+    template <class OutputIterator,class Size,class T>
+    OutputIterator fill_n(OutputIterator first,Size n,const T& val)
     {
         while(n--)
         {
@@ -34,6 +32,13 @@ namespace MySTL
     template<class T>
     const T& min(const T& a,const T& b)
     {
-        return !(b<a)?a:b;
+        return (b>a)?a:b;
+    }
+
+    template<class T>
+    const T& max(const T& a,const T& b)
+    {
+        return (a>b)?a:b;
     }
 }
+#endif //MYSTL_ALGORITHM_H

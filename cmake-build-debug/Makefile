@@ -155,6 +155,7 @@ cpp/Alloc.o: cpp/Alloc.cpp.o
 
 # target to build an object file
 cpp/Alloc.cpp.o:
+	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.o
 .PHONY : cpp/Alloc.cpp.o
 
@@ -164,6 +165,7 @@ cpp/Alloc.i: cpp/Alloc.cpp.i
 
 # target to preprocess a source file
 cpp/Alloc.cpp.i:
+	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.i
 .PHONY : cpp/Alloc.cpp.i
 
@@ -173,35 +175,9 @@ cpp/Alloc.s: cpp/Alloc.cpp.s
 
 # target to generate assembly for a file
 cpp/Alloc.cpp.s:
+	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.s
 .PHONY : cpp/Alloc.cpp.s
-
-cpp/Vector.o: cpp/Vector.cpp.o
-
-.PHONY : cpp/Vector.o
-
-# target to build an object file
-cpp/Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Vector.cpp.o
-.PHONY : cpp/Vector.cpp.o
-
-cpp/Vector.i: cpp/Vector.cpp.i
-
-.PHONY : cpp/Vector.i
-
-# target to preprocess a source file
-cpp/Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Vector.cpp.i
-.PHONY : cpp/Vector.cpp.i
-
-cpp/Vector.s: cpp/Vector.cpp.s
-
-.PHONY : cpp/Vector.s
-
-# target to generate assembly for a file
-cpp/Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Vector.cpp.s
-.PHONY : cpp/Vector.cpp.s
 
 test/test_Allocator.o: test/test_Allocator.cpp.o
 
@@ -298,9 +274,6 @@ help:
 	@echo "... cpp/Alloc.o"
 	@echo "... cpp/Alloc.i"
 	@echo "... cpp/Alloc.s"
-	@echo "... cpp/Vector.o"
-	@echo "... cpp/Vector.i"
-	@echo "... cpp/Vector.s"
 	@echo "... test/test_Allocator.o"
 	@echo "... test/test_Allocator.i"
 	@echo "... test/test_Allocator.s"

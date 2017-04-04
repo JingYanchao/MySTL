@@ -12,5 +12,7 @@ CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../TypeTraits.h
 CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../Uninitialized.h
 CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../Vector.h
 CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../iterator.h
+CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../test/TestUtil.h
 CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../test/test_vector.cpp
+CMakeFiles/Test_vector.dir/test/test_vector.cpp.o: ../test/test_vector.h
 

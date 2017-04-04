@@ -13,4 +13,6 @@ CMakeFiles/Test_vector.dir/test/test_vector.cpp.o
  /home/jyc/mygithub/MySTL/Uninitialized.h
  /home/jyc/mygithub/MySTL/Vector.h
  /home/jyc/mygithub/MySTL/iterator.h
+ /home/jyc/mygithub/MySTL/test/TestUtil.h
  /home/jyc/mygithub/MySTL/test/test_vector.cpp
+ /home/jyc/mygithub/MySTL/test/test_vector.h

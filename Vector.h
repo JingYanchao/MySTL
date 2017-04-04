@@ -37,12 +37,18 @@ namespace MySTL
             void fill_initial(size_type n,const T& val)
             {
                 _first = dataAllocator::allocate(n);
-                _last =_first+n;
-                uninitialized_fill(_first,_last,val);
+                MySTL::uninitialized_fill_n(_first,n,val);
+                _last =_endOfStorage = _first+n;
+
+
             }
         public:
             //默认构造函数
             Vector():_first(NULL), _last(NULL), _endOfStorage(NULL){}
+            explicit Vector(const size_type n)
+            {
+                allocateAndFillN(n, value_type());
+            }
             Vector(size_type n ,const T& val)
             {
                 fill_initial(n,val);
@@ -156,12 +162,12 @@ namespace MySTL
             difference_type size()const{ return _last - _first; }
             difference_type capacity()const{ return _endOfStorage - _first; }
             bool empty()const{ return _first == _last; }
-            void resize(size_type n, value_type val)
+            void resize(size_type n, value_type val = value_type())
             {
                 if (n < size())
                 {
-                    dataAllocator::destroy(_first + n, _last);
-                    _first = _last + n;
+                    destroy(_first + n, _last);
+                    _last = _first + n;
                 }
                 else if (n > size() && n <= capacity())
                 {
@@ -209,7 +215,7 @@ namespace MySTL
             void pop_back()
             {
                 --_last;
-                dataAllocator::destroy(_last);
+                destroy(_last);
             }
             template <class InputIterator>
             void insert(iterator position, InputIterator first, InputIterator last)
@@ -221,6 +227,12 @@ namespace MySTL
             {
                 insert_aux(position, n, val, typename std::is_integral<size_type>::type());
             }
+            iterator insert(iterator position, const value_type& val)
+            {
+                const auto index = position - begin();
+                insert(position, 1, val);
+                return begin() + index;
+            }
             iterator erase(iterator position)
             {
                 return erase(position,position+1);
@@ -230,6 +242,7 @@ namespace MySTL
                 difference_type len_tail = end()-last;
                 difference_type len_move = last-first;
                 _last-=len_move;
+                //从first开始分配地址内存,但是并不使用first这个迭代器,因为first需要被返回
                 for(;len_tail!=0;len_tail--)
                 {
                     auto temp = (last - len_move);
@@ -251,14 +264,14 @@ namespace MySTL
             void allocateAndFillN(const size_type n, const value_type& value)
             {
                 _first = dataAllocator::allocate(n);
-                _last = uninitialized_fill_n(_first,n,value);
+                _last = MySTL::uninitialized_fill_n(_first,n,value);
                 _endOfStorage = _last;
             }
             template<class InputIterator>
             void allocateAndCopy(InputIterator first, InputIterator last)
             {
                 _first = dataAllocator::allocate(last - first);
-                _last = uninitialized_copy(first, last, _first);
+                _last = MySTL::uninitialized_copy(first, last, _first);
                 _endOfStorage = _last;
             }
 
@@ -321,7 +334,7 @@ namespace MySTL
                     {
                         construct(tempPtr + locationNeed, *tempPtr);
                     }
-                    uninitialized_fill_n(position, n, value);
+                    MySTL::uninitialized_fill_n(position, n, value);
                     _last += locationNeed;
                 }
                 else
@@ -351,9 +364,9 @@ namespace MySTL
 
                 T *newStart = dataAllocator::allocate(newCapacity);
                 T *newEndOfStorage = newStart + newCapacity;
-                T *newFinish = uninitialized_copy(begin(), position, newStart);
-                newFinish = uninitialized_fill_n(newFinish, n, val);
-                newFinish = uninitialized_copy(position, end(), newFinish);
+                T *newFinish = MySTL::uninitialized_copy(begin(), position, newStart);
+                newFinish = MySTL::uninitialized_fill_n(newFinish, n, val);
+                newFinish = MySTL::uninitialized_copy(position, end(), newFinish);
 
                 destroyAndDeallocateAll();
                 _first = newStart;

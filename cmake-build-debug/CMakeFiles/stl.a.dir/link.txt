@@ -1,0 +1,2 @@
+/usr/bin/ar qc /lib/libstl.a.a  CMakeFiles/stl.a.dir/cpp/Alloc.cpp.o
+/usr/bin/ranlib /lib/libstl.a.a

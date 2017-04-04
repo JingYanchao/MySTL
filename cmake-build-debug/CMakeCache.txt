@@ -184,6 +184,15 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//Dependencies for target
+hello_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+stl.a_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+stl_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries

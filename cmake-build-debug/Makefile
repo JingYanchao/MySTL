@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stl
+
+# Build rule for target.
+stl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stl
+.PHONY : stl
+
+# fast build rule for target.
+stl/fast:
+	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/build
+.PHONY : stl/fast
+
+#=============================================================================
 # Target rules for targets named Test_vector
 
 # Build rule for target.
@@ -155,6 +168,7 @@ cpp/Alloc.o: cpp/Alloc.cpp.o
 
 # target to build an object file
 cpp/Alloc.cpp.o:
+	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.o
 .PHONY : cpp/Alloc.cpp.o
@@ -165,6 +179,7 @@ cpp/Alloc.i: cpp/Alloc.cpp.i
 
 # target to preprocess a source file
 cpp/Alloc.cpp.i:
+	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.i
 .PHONY : cpp/Alloc.cpp.i
@@ -175,6 +190,7 @@ cpp/Alloc.s: cpp/Alloc.cpp.s
 
 # target to generate assembly for a file
 cpp/Alloc.cpp.s:
+	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.s
 .PHONY : cpp/Alloc.cpp.s
@@ -267,6 +283,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... stl"
 	@echo "... edit_cache"
 	@echo "... Test_vector"
 	@echo "... Test_simple_allocator"

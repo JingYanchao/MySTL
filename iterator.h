@@ -127,6 +127,88 @@ namespace MySTL
         return static_cast<typename iterator_traits<Iterator>::value_type*>(0);
     }
 
+    template <class InputIterator>
+    inline iterator_traits<InputIterator>::difference_type
+    _distance(InputIterator first,InputIterator last,input_iterator_tag)
+    {
+        iterator_traits<InputIterator>::difference_type n = 0;
+        while(first!=last)
+        {
+            ++first;
+            ++n;
+        }
+        return n;
+    }
+
+    template <class BidirectionalIterator>
+    inline iterator_traits<BidirectionalIterator>::difference_type
+    _distance(BidirectionalIterator first,BidirectionalIterator last,bidirectional_iterator_tag)
+    {
+        iterator_traits<BidirectionalIterator>::difference_type n = 0;
+        while(first!=last)
+        {
+            ++first;
+            ++n;
+        }
+        return n;
+    }
+
+    template <class RandomAccessIterator>
+    inline iterator_traits<RandomAccessIterator>::difference_type
+    _distance(RandomAccessIterator first,RandomAccessIterator last,random_access_iterator_tag)
+    {
+        iterator_traits<RandomAccessIterator>::difference_type n = 0;
+       return last-first;
+    }
+
+    template <class Iterator>
+    inline iterator_traits<Iterator>::difference_type
+    distance(Iterator first,Iterator last)
+    {
+        typedef typename iterator_traits<Iterator>::iterator_category category;
+        return _distance(first,last,category());
+    }
+
+    template <class InputIterator,class Distance>
+    inline void _advance(InputIterator iter,Distance n,input_iterator_tag)
+    {
+        while(n--)
+            iter++;
+    }
+
+    template <class BidirectionalIterator,class Distance>
+    inline void _advance(BidirectionalIterator iter,Distance n,bidirectional_iterator_tag)
+    {
+        if(n>0)
+        {
+            while(n--)
+                iter++;
+        }
+        else
+        {
+            while(n++)
+                iter--;
+        }
+    }
+
+    template <class RandomAccessIterator,class Distance>
+    inline void _advance(RandomAccessIterator iter,Distance n,random_access_iterator_tag)
+    {
+        iter+=n;
+    }
+
+    template <class Iterator,class Distance>
+    inline void advance(Iterator iter,Distance n)
+    {
+        typedef typename iterator_traits<Iterator>::iterator_category category;
+        return _advance(iter,n,category());
+    }
+
+
+
+
+
+
 }
 
 #endif //MYSTL_ITERATOR_H

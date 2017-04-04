@@ -137,6 +137,19 @@ Test_vector/fast:
 .PHONY : Test_vector/fast
 
 #=============================================================================
+# Target rules for targets named Test_list
+
+# Build rule for target.
+Test_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test_list
+.PHONY : Test_list
+
+# fast build rule for target.
+Test_list/fast:
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/build
+.PHONY : Test_list/fast
+
+#=============================================================================
 # Target rules for targets named Test_simple_allocator
 
 # Build rule for target.
@@ -170,6 +183,7 @@ cpp/Alloc.o: cpp/Alloc.cpp.o
 cpp/Alloc.cpp.o:
 	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.o
 .PHONY : cpp/Alloc.cpp.o
 
@@ -181,6 +195,7 @@ cpp/Alloc.i: cpp/Alloc.cpp.i
 cpp/Alloc.cpp.i:
 	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.i
 .PHONY : cpp/Alloc.cpp.i
 
@@ -192,6 +207,7 @@ cpp/Alloc.s: cpp/Alloc.cpp.s
 cpp/Alloc.cpp.s:
 	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.s
 .PHONY : cpp/Alloc.cpp.s
 
@@ -221,6 +237,33 @@ test/test_Allocator.s: test/test_Allocator.cpp.s
 test/test_Allocator.cpp.s:
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/test/test_Allocator.cpp.s
 .PHONY : test/test_Allocator.cpp.s
+
+test/test_list.o: test/test_list.cpp.o
+
+.PHONY : test/test_list.o
+
+# target to build an object file
+test/test_list.cpp.o:
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/test/test_list.cpp.o
+.PHONY : test/test_list.cpp.o
+
+test/test_list.i: test/test_list.cpp.i
+
+.PHONY : test/test_list.i
+
+# target to preprocess a source file
+test/test_list.cpp.i:
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/test/test_list.cpp.i
+.PHONY : test/test_list.cpp.i
+
+test/test_list.s: test/test_list.cpp.s
+
+.PHONY : test/test_list.s
+
+# target to generate assembly for a file
+test/test_list.cpp.s:
+	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/test/test_list.cpp.s
+.PHONY : test/test_list.cpp.s
 
 test/test_simple_allocator.o: test/test_simple_allocator.cpp.o
 
@@ -286,6 +329,7 @@ help:
 	@echo "... stl"
 	@echo "... edit_cache"
 	@echo "... Test_vector"
+	@echo "... Test_list"
 	@echo "... Test_simple_allocator"
 	@echo "... Test_Alloc"
 	@echo "... cpp/Alloc.o"
@@ -294,6 +338,9 @@ help:
 	@echo "... test/test_Allocator.o"
 	@echo "... test/test_Allocator.i"
 	@echo "... test/test_Allocator.s"
+	@echo "... test/test_list.o"
+	@echo "... test/test_list.i"
+	@echo "... test/test_list.s"
 	@echo "... test/test_simple_allocator.o"
 	@echo "... test/test_simple_allocator.i"
 	@echo "... test/test_simple_allocator.s"

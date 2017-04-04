@@ -2,5 +2,6 @@
 /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/stl.dir
 /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_vector.dir
+/home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_list.dir
 /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_simple_allocator.dir
 /home/jyc/mygithub/MySTL/cmake-build-debug/CMakeFiles/Test_Alloc.dir

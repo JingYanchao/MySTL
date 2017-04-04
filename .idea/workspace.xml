@@ -2,10 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="MySTL" targetName="Test_list" />
       <config projectName="MySTL" targetName="Test_Alloc" />
-      <config projectName="MySTL" targetName="stl" />
-      <config projectName="MySTL" targetName="Test_vector" />
       <config projectName="MySTL" targetName="Test_simple_allocator" />
+      <config projectName="MySTL" targetName="Test_vector" />
+      <config projectName="MySTL" targetName="stl" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,24 +16,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b2ad6d-35af-4013-a222-e898f84ed25f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/test/test_vector.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Test_vector" afterPath="$PROJECT_DIR$/cmake-build-debug/Test_vector" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Vector.cpp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Allocator.h" afterPath="$PROJECT_DIR$/Allocator.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vector.h" afterPath="$PROJECT_DIR$/Vector.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_simple_allocator.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_simple_allocator.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test_vector.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stl.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stl.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MySTL.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/MySTL.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/空间分配器.md" afterPath="$PROJECT_DIR$/doc/空间分配器.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_vector.cpp" afterPath="$PROJECT_DIR$/test/test_vector.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/迷一样的迭代器.md" afterPath="$PROJECT_DIR$/doc/迷一样的迭代器.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iterator.h" afterPath="$PROJECT_DIR$/iterator.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,18 +65,33 @@
       <file leaf-file-name="迷一样的迭代器.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/迷一样的迭代器.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="-2756">
+              <caret line="89" column="84" lean-forward="false" selection-start-line="89" selection-start-column="84" selection-end-line="89" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iterator.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="List.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/List.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2088">
+              <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+              <folding>
+                <element signature="e#79#101#0" expanded="true" />
+                <element signature="e#277#286#0" expanded="true" />
+                <element signature="e#406#415#0" expanded="true" />
+                <element signature="e#1937#1974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iterator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="102" column="6" lean-forward="true" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+            <state relative-caret-position="929">
+              <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
               <folding>
                 <element signature="e#418#443#0" expanded="true" />
                 <element signature="e#980#1005#0" expanded="true" />
@@ -92,16 +104,24 @@
                 <element signature="e#3218#3234#0" expanded="true" />
                 <element signature="e#3498#3514#0" expanded="true" />
                 <element signature="e#3724#3740#0" expanded="true" />
+                <element signature="e#3941#3962#0" expanded="true" />
+                <element signature="e#4287#4316#0" expanded="true" />
+                <element signature="e#4681#4709#0" expanded="true" />
+                <element signature="e#4993#5009#0" expanded="true" />
+                <element signature="e#5262#5298#0" expanded="true" />
+                <element signature="e#5439#5483#0" expanded="true" />
+                <element signature="e#5764#5807#0" expanded="true" />
+                <element signature="e#5941#5972#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Allocator.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Allocator.h">
+      <file leaf-file-name="test_list.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_list.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,38 +130,29 @@
       <file leaf-file-name="空间分配器.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/空间分配器.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
+            <state relative-caret-position="828">
               <caret line="165" column="19" lean-forward="false" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_Allocator.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_Allocator.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-              <folding>
-                <element signature="e#36#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="182" lean-forward="false" selection-start-line="7" selection-start-column="182" selection-end-line="7" selection-end-column="182" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constructor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Constructor.h">
+      <file leaf-file-name="test_list.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_list.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-              <folding>
-                <element signature="e#94#117#0" expanded="true" />
-                <element signature="e#165#185#0" expanded="true" />
-                <element signature="e#293#302#0" expanded="true" />
-                <element signature="e#379#402#0" expanded="true" />
-                <element signature="e#505#528#0" expanded="true" />
-                <element signature="e#726#749#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,8 +160,8 @@
       <file leaf-file-name="Vector.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="48" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="324">
+              <caret line="33" column="48" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="33" selection-end-column="48" />
               <folding>
                 <element signature="e#84#106#0" expanded="true" />
                 <element signature="e#283#320#0" expanded="true" />
@@ -217,7 +228,6 @@
         <option value="$PROJECT_DIR$/TypeTraits.h" />
         <option value="$PROJECT_DIR$/test/test_simple_allocator.cpp" />
         <option value="$PROJECT_DIR$/Constructor.h" />
-        <option value="$PROJECT_DIR$/iterator.h" />
         <option value="$PROJECT_DIR$/Uninitialized.h" />
         <option value="$PROJECT_DIR$/cpp/Vector.cpp" />
         <option value="$PROJECT_DIR$/Algorithm.h" />
@@ -226,9 +236,11 @@
         <option value="$PROJECT_DIR$/test/test_vector.h" />
         <option value="$PROJECT_DIR$/test/TestUtil.h" />
         <option value="$PROJECT_DIR$/test/test_vector.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Vector.h" />
         <option value="$PROJECT_DIR$/doc/迷一样的迭代器.md" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/iterator.h" />
+        <option value="$PROJECT_DIR$/List.h" />
       </list>
     </option>
   </component>
@@ -240,8 +252,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="216" />
+    <option name="x" value="264" />
+    <option name="y" value="174" />
     <option name="width" value="1737" />
     <option name="height" value="834" />
   </component>
@@ -282,35 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySTL" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySTL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySTL" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySTL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,6 +518,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Test_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MySTL" TARGET_NAME="Test_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MySTL" RUN_TARGET_NAME="Test_list">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MySTL" RUN_TARGET_NAME="Test_Alloc" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
       <method />
@@ -546,12 +534,13 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.stl" />
       <item index="1" class="java.lang.String" itemvalue="Application.Test_Alloc" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test_simple_allocator" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test_vector" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test_list" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test_simple_allocator" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Test_vector" />
     </list>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -596,15 +585,15 @@
       <workItem from="1491226502915" duration="666000" />
       <workItem from="1491271092739" duration="5000" />
       <workItem from="1491271640427" duration="3336000" />
-      <workItem from="1491282659188" duration="1025000" />
+      <workItem from="1491282659188" duration="12100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103908000" />
+    <option name="totallyTimeSpent" value="114983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="216" width="1737" height="834" extended-state="0" />
+    <frame x="264" y="174" width="1737" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18825561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -641,28 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_Allocator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TypeTraits.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iterator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -679,6 +646,14 @@
             <element signature="e#3218#3234#0" expanded="true" />
             <element signature="e#3498#3514#0" expanded="true" />
             <element signature="e#3724#3740#0" expanded="true" />
+            <element signature="e#3941#3962#0" expanded="true" />
+            <element signature="e#4287#4316#0" expanded="true" />
+            <element signature="e#4681#4709#0" expanded="true" />
+            <element signature="e#4993#5009#0" expanded="true" />
+            <element signature="e#5262#5298#0" expanded="true" />
+            <element signature="e#5439#5483#0" expanded="true" />
+            <element signature="e#5764#5807#0" expanded="true" />
+            <element signature="e#5941#5972#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,6 +791,14 @@
             <element signature="e#3218#3234#0" expanded="true" />
             <element signature="e#3498#3514#0" expanded="true" />
             <element signature="e#3724#3740#0" expanded="true" />
+            <element signature="e#3941#3962#0" expanded="true" />
+            <element signature="e#4287#4316#0" expanded="true" />
+            <element signature="e#4681#4709#0" expanded="true" />
+            <element signature="e#4993#5009#0" expanded="true" />
+            <element signature="e#5262#5298#0" expanded="true" />
+            <element signature="e#5439#5483#0" expanded="true" />
+            <element signature="e#5764#5807#0" expanded="true" />
+            <element signature="e#5941#5972#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -970,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_vector.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -985,14 +960,6 @@
           <folding>
             <element signature="e#36#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,20 +985,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#255#264#0" expanded="true" />
-            <element signature="e#313#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Constructor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="461">
           <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="e#94#117#0" expanded="true" />
@@ -1044,10 +1000,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/空间分配器.md">
+    <entry file="file://$PROJECT_DIR$/Allocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="165" column="19" lean-forward="false" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+        <state relative-caret-position="173">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="182" lean-forward="false" selection-start-line="7" selection-start-column="182" selection-end-line="7" selection-end-column="182" />
           <folding />
         </state>
       </provider>
@@ -1067,10 +1031,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/迷一样的迭代器.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2756">
+          <caret line="89" column="84" lean-forward="false" selection-start-line="89" selection-start-column="84" selection-end-line="89" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#255#264#0" expanded="true" />
+            <element signature="e#313#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="48" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="324">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="33" selection-end-column="48" />
           <folding>
             <element signature="e#84#106#0" expanded="true" />
             <element signature="e#283#320#0" expanded="true" />
@@ -1086,18 +1069,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/迷一样的迭代器.md">
+    <entry file="file://$PROJECT_DIR$/test/test_list.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/空间分配器.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="165" column="19" lean-forward="false" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_list.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iterator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="102" column="6" lean-forward="true" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+        <state relative-caret-position="929">
+          <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
           <folding>
             <element signature="e#418#443#0" expanded="true" />
             <element signature="e#980#1005#0" expanded="true" />
@@ -1110,6 +1109,27 @@
             <element signature="e#3218#3234#0" expanded="true" />
             <element signature="e#3498#3514#0" expanded="true" />
             <element signature="e#3724#3740#0" expanded="true" />
+            <element signature="e#3941#3962#0" expanded="true" />
+            <element signature="e#4287#4316#0" expanded="true" />
+            <element signature="e#4681#4709#0" expanded="true" />
+            <element signature="e#4993#5009#0" expanded="true" />
+            <element signature="e#5262#5298#0" expanded="true" />
+            <element signature="e#5439#5483#0" expanded="true" />
+            <element signature="e#5764#5807#0" expanded="true" />
+            <element signature="e#5941#5972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+          <folding>
+            <element signature="e#79#101#0" expanded="true" />
+            <element signature="e#277#286#0" expanded="true" />
+            <element signature="e#406#415#0" expanded="true" />
+            <element signature="e#1937#1974#0" expanded="true" />
           </folding>
         </state>
       </provider>

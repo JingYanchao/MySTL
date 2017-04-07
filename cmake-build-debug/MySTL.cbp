@@ -27,52 +27,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stl">
-				<Option output="/home/jyc/mygithub/MySTL/lib/libstl.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jyc/mygithub/MySTL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stl/fast">
-				<Option output="/home/jyc/mygithub/MySTL/lib/libstl.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jyc/mygithub/MySTL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/jyc/mygithub/MySTL/cmake-build-debug"/>
 				<Option type="4"/>
@@ -124,6 +78,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_vector/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_string">
+				<Option output="/home/jyc/mygithub/MySTL/cmake-build-debug/Test_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jyc/mygithub/MySTL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_string"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_string/fast">
+				<Option output="/home/jyc/mygithub/MySTL/cmake-build-debug/Test_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jyc/mygithub/MySTL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_string/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jyc/mygithub/MySTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -269,8 +269,8 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/jyc/mygithub/MySTL/Algorithm.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/Alloc.h">
@@ -279,9 +279,14 @@
 		<Unit filename="/home/jyc/mygithub/MySTL/Allocator.h">
 			<Option target="Test_Alloc"/>
 		</Unit>
-		<Unit filename="/home/jyc/mygithub/MySTL/Constructor.h">
-			<Option target="stl"/>
+		<Unit filename="/home/jyc/mygithub/MySTL/Alogbase.h">
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
+			<Option target="Test_list"/>
+		</Unit>
+		<Unit filename="/home/jyc/mygithub/MySTL/Constructor.h">
+			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 			<Option target="Test_simple_allocator"/>
 			<Option target="Test_Alloc"/>
@@ -290,45 +295,50 @@
 			<Option target="Test_list"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/Simple_Allocator.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 			<Option target="Test_simple_allocator"/>
 		</Unit>
+		<Unit filename="/home/jyc/mygithub/MySTL/String.h">
+			<Option target="Test_string"/>
+		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/TypeTraits.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 			<Option target="Test_simple_allocator"/>
 			<Option target="Test_Alloc"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/Uninitialized.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 			<Option target="Test_simple_allocator"/>
 			<Option target="Test_Alloc"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/Vector.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/cpp/Alloc.cpp">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 			<Option target="Test_Alloc"/>
 		</Unit>
+		<Unit filename="/home/jyc/mygithub/MySTL/cpp/String.cpp">
+			<Option target="Test_string"/>
+		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/iterator.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 			<Option target="Test_simple_allocator"/>
 			<Option target="Test_Alloc"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/test/TestUtil.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
+			<Option target="Test_string"/>
 			<Option target="Test_list"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/test/test_Allocator.cpp">
@@ -343,11 +353,16 @@
 		<Unit filename="/home/jyc/mygithub/MySTL/test/test_simple_allocator.cpp">
 			<Option target="Test_simple_allocator"/>
 		</Unit>
+		<Unit filename="/home/jyc/mygithub/MySTL/test/test_string.cpp">
+			<Option target="Test_string"/>
+		</Unit>
+		<Unit filename="/home/jyc/mygithub/MySTL/test/test_string.h">
+			<Option target="Test_string"/>
+		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/test/test_vector.cpp">
 			<Option target="Test_vector"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/test/test_vector.h">
-			<Option target="stl"/>
 			<Option target="Test_vector"/>
 		</Unit>
 		<Unit filename="/home/jyc/mygithub/MySTL/CMakeLists.txt">

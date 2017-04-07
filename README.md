@@ -1,9 +1,9 @@
 # MySTL
 >作者：超炫风景
 >
->更新时间：2017.4.4
+>更新时间：2017.4.7
 >
->软件版本 V1.4
+>软件版本 V1.5
 >
 >项目：代码巢计划
 >
@@ -29,9 +29,11 @@ MySTL基于STL 的 SGI版本，参考侯捷老师的《STL源码剖析》以及�
 
 6.Uninitialized：内存初始化工具
 
-7.Vector:  Vector容器90%
+7.Vector:  Vector容器
 
-8.List: List容器20%
+8.List: List容器
+
+9.Algorithm:泛型函数
 
 ##### 已实现的测试模块
 
@@ -41,11 +43,13 @@ MySTL基于STL 的 SGI版本，参考侯捷老师的《STL源码剖析》以及�
 
 3.test_vector:  vector容器测试代码
 
+4.test_list:  list容器测试代码
+
 ##### 待开发的模块
 
-1.List容器函数
+1.stringr容器
 
-2.vector容器函数
+2.泛型函数
 
 ### 文档进度
 

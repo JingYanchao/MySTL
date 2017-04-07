@@ -71,6 +71,7 @@ namespace MySTL
             assert(*it == i);
         }
     }
+
     void testCase5()
     {
         tsVec<int> v(11, 0);
@@ -170,6 +171,14 @@ namespace MySTL
         assert(!(foo == bar));
         assert(foo != bar);
     }
+
+    void testCase12()
+    {
+        tsVec<int> v;
+        v.reserve(20);
+        assert(v.capacity() == 20);
+    }
+
     void testAllCases()
     {
         testCase1();
@@ -183,6 +192,7 @@ namespace MySTL
         testCase9();
         testCase10();
         testCase11();
+        testCase12();
 
     }
 

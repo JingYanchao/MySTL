@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Test_string.dir/test/test_string.cpp.o CMakeFiles/Test_string.dir/cpp/Alloc.cpp.o CMakeFiles/Test_string.dir/cpp/String.cpp.o  -o Test_string 

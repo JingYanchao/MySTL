@@ -11,6 +11,7 @@
 #include "Uninitialized.h"
 #include "Constructor.h"
 #include "TypeTraits.h"
+#include "Alogbase.h"
 #include <type_traits>
 
 namespace MySTL
@@ -39,7 +40,6 @@ namespace MySTL
                 _first = dataAllocator::allocate(n);
                 MySTL::uninitialized_fill_n(_first,n,val);
                 _last =_endOfStorage = _first+n;
-
 
             }
         public:
@@ -187,6 +187,18 @@ namespace MySTL
                     _endOfStorage = _first + n;
                 }
             }
+
+
+            void swap(Vector& v)
+            {
+                if (this != &v)
+                {
+                    MySTL::swap(_first, v._first);
+                    MySTL::swap(_last, v._last);
+                    MySTL::swap(_endOfStorage, v._endOfStorage);
+                }
+            }
+
             void shrink_to_fit()
             {
                 T* new_start = (T*)dataAllocator::allocate(size());
@@ -204,7 +216,7 @@ namespace MySTL
 
             void clear()
             {
-                dataAllocator::destroy(_first, _last);
+                destroy(_first, _last);
                 _last = _first;
             }
 //            void swap(Vector& v);
@@ -251,6 +263,19 @@ namespace MySTL
                 return first;
             }
 
+            //将容量扩充到n,不能缩小容量
+            void reserve(size_type n)
+            {
+                if(n<capacity())
+                    return;
+                auto new_first = dataAllocator::allocate(n);
+                auto new_last = uninitialized_copy(begin(),end(),new_first);
+                destroyAndDeallocateAll();
+                _first = new_first;
+                _last = new_last;
+                _endOfStorage = new_first+n;
+
+            }
 
         private:
             void destroyAndDeallocateAll()
@@ -280,11 +305,15 @@ namespace MySTL
             {
                 allocateAndCopy(first, last);
             }
+
+
+
             template<class Integer>
             void vector_aux(Integer n, const value_type& value, std::true_type)
             {
                 allocateAndFillN(n, value);
             }
+
             template<class InputIterator>
             void insert_aux(iterator position, InputIterator first, InputIterator last, std::false_type)
             {

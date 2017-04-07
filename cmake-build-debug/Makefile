@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stl
-
-# Build rule for target.
-stl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stl
-.PHONY : stl
-
-# fast build rule for target.
-stl/fast:
-	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/build
-.PHONY : stl/fast
-
-#=============================================================================
 # Target rules for targets named Test_vector
 
 # Build rule for target.
@@ -135,6 +122,19 @@ Test_vector: cmake_check_build_system
 Test_vector/fast:
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/build
 .PHONY : Test_vector/fast
+
+#=============================================================================
+# Target rules for targets named Test_string
+
+# Build rule for target.
+Test_string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test_string
+.PHONY : Test_string
+
+# fast build rule for target.
+Test_string/fast:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/build
+.PHONY : Test_string/fast
 
 #=============================================================================
 # Target rules for targets named Test_list
@@ -181,8 +181,8 @@ cpp/Alloc.o: cpp/Alloc.cpp.o
 
 # target to build an object file
 cpp/Alloc.cpp.o:
-	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.o
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/cpp/Alloc.cpp.o
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.o
 .PHONY : cpp/Alloc.cpp.o
@@ -193,8 +193,8 @@ cpp/Alloc.i: cpp/Alloc.cpp.i
 
 # target to preprocess a source file
 cpp/Alloc.cpp.i:
-	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.i
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/cpp/Alloc.cpp.i
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.i
 .PHONY : cpp/Alloc.cpp.i
@@ -205,11 +205,38 @@ cpp/Alloc.s: cpp/Alloc.cpp.s
 
 # target to generate assembly for a file
 cpp/Alloc.cpp.s:
-	$(MAKE) -f CMakeFiles/stl.dir/build.make CMakeFiles/stl.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_vector.dir/build.make CMakeFiles/Test_vector.dir/cpp/Alloc.cpp.s
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_list.dir/build.make CMakeFiles/Test_list.dir/cpp/Alloc.cpp.s
 	$(MAKE) -f CMakeFiles/Test_Alloc.dir/build.make CMakeFiles/Test_Alloc.dir/cpp/Alloc.cpp.s
 .PHONY : cpp/Alloc.cpp.s
+
+cpp/String.o: cpp/String.cpp.o
+
+.PHONY : cpp/String.o
+
+# target to build an object file
+cpp/String.cpp.o:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/cpp/String.cpp.o
+.PHONY : cpp/String.cpp.o
+
+cpp/String.i: cpp/String.cpp.i
+
+.PHONY : cpp/String.i
+
+# target to preprocess a source file
+cpp/String.cpp.i:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/cpp/String.cpp.i
+.PHONY : cpp/String.cpp.i
+
+cpp/String.s: cpp/String.cpp.s
+
+.PHONY : cpp/String.s
+
+# target to generate assembly for a file
+cpp/String.cpp.s:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/cpp/String.cpp.s
+.PHONY : cpp/String.cpp.s
 
 test/test_Allocator.o: test/test_Allocator.cpp.o
 
@@ -292,6 +319,33 @@ test/test_simple_allocator.cpp.s:
 	$(MAKE) -f CMakeFiles/Test_simple_allocator.dir/build.make CMakeFiles/Test_simple_allocator.dir/test/test_simple_allocator.cpp.s
 .PHONY : test/test_simple_allocator.cpp.s
 
+test/test_string.o: test/test_string.cpp.o
+
+.PHONY : test/test_string.o
+
+# target to build an object file
+test/test_string.cpp.o:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/test/test_string.cpp.o
+.PHONY : test/test_string.cpp.o
+
+test/test_string.i: test/test_string.cpp.i
+
+.PHONY : test/test_string.i
+
+# target to preprocess a source file
+test/test_string.cpp.i:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/test/test_string.cpp.i
+.PHONY : test/test_string.cpp.i
+
+test/test_string.s: test/test_string.cpp.s
+
+.PHONY : test/test_string.s
+
+# target to generate assembly for a file
+test/test_string.cpp.s:
+	$(MAKE) -f CMakeFiles/Test_string.dir/build.make CMakeFiles/Test_string.dir/test/test_string.cpp.s
+.PHONY : test/test_string.cpp.s
+
 test/test_vector.o: test/test_vector.cpp.o
 
 .PHONY : test/test_vector.o
@@ -326,15 +380,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... stl"
 	@echo "... edit_cache"
 	@echo "... Test_vector"
+	@echo "... Test_string"
 	@echo "... Test_list"
 	@echo "... Test_simple_allocator"
 	@echo "... Test_Alloc"
 	@echo "... cpp/Alloc.o"
 	@echo "... cpp/Alloc.i"
 	@echo "... cpp/Alloc.s"
+	@echo "... cpp/String.o"
+	@echo "... cpp/String.i"
+	@echo "... cpp/String.s"
 	@echo "... test/test_Allocator.o"
 	@echo "... test/test_Allocator.i"
 	@echo "... test/test_Allocator.s"
@@ -344,6 +401,9 @@ help:
 	@echo "... test/test_simple_allocator.o"
 	@echo "... test/test_simple_allocator.i"
 	@echo "... test/test_simple_allocator.s"
+	@echo "... test/test_string.o"
+	@echo "... test/test_string.i"
+	@echo "... test/test_string.s"
 	@echo "... test/test_vector.o"
 	@echo "... test/test_vector.i"
 	@echo "... test/test_vector.s"
